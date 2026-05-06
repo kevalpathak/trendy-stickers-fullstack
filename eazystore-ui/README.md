@@ -1,40 +1,78 @@
-# Trendy Stickers - Full Stack E-commerce Application
+# Trendy Stickers - Full Stack E-Commerce Application
 
-A full-stack e-commerce web application built using React, Spring Boot, and H2 Database.
+A modern full-stack e-commerce web application built using React and Spring Boot.  
+This project demonstrates real-world full stack development concepts including authentication, authorization, REST APIs, Spring Security, JWT, Stripe payments, Redux state management, and responsive UI development.
 
-## Technologies Used
+---
+
+## Tech Stack
 
 ### Frontend
-- React
+- React.js
 - React Router
+- Redux Toolkit
+- Context API
+- Tailwind CSS / CSS
 - Axios
-- Tailwind CSS
+- Vite
 
 ### Backend
+- Java
 - Spring Boot
 - Spring Security
 - Spring Data JPA
-- H2 Database
+- JWT Authentication
+- REST APIs
+- Hibernate
+- H2 Database / MySQL
+
+### Other Tools & Integrations
+- Stripe Payment Gateway
+- Swagger / OpenAPI
+- Maven
+- Git & GitHub
+
+---
 
 ## Features
-- User Authentication
-- Product Listing
-- Shopping Cart
-- Contact Form
-- Responsive UI
-- REST APIs
-- JWT Authentication
-- Order Management
+
+- User Registration & Login
+- JWT Authentication & Authorization
+- Protected Routes
+- Product Listings
+- Product Detail Pages
+- Shopping Cart Functionality
+- Redux State Management
+- Stripe Checkout Integration
+- User Profile Management
+- Orders Management
+- Admin Panel APIs
+- Global Exception Handling
+- RESTful API Architecture
+- Responsive UI Design
+
+---
+
+## Learning Outcomes
+
+This project helped me gain hands-on experience with:
+
+- Building Full Stack Applications using React & Spring Boot
+- Creating and consuming REST APIs
+- Implementing Spring Security & JWT Authentication
+- Managing application state using Redux Toolkit
+- Database relationships using Spring Data JPA
+- Integrating Stripe payment processing
+- Structuring scalable frontend and backend applications
+- Working with protected routes and role-based authorization
+
+---
 
 ## Project Structure
 
-eazystore-ui/   -> Frontend  
-eazystore/      -> Backend
-
-## How to Run
-
-### Frontend
-
 ```bash
-npm install
-npm run dev
+trendy-stickers/
+│
+├── eazystore-ui/     # React Frontend
+│
+├── eazystore/        # Spring Boot Backend
